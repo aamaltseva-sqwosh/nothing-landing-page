@@ -37,7 +37,8 @@
     padding-inline: 72px;
 
     @include on-desktop {
-      min-width: 1260px;
+      max-width: 1260px;
+      width: 100%;
       margin-inline: auto;
       padding-inline: 120px;
     }
