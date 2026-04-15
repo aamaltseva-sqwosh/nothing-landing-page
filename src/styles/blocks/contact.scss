@@ -93,8 +93,15 @@
   }
 
   &__phone-number {
-    color: $hover-color;
+    color: $main-color;
     text-decoration: none;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s;
+
+    &:hover {
+      color: $hover-color;
+    }
   }
 
   &__title {
@@ -111,6 +118,10 @@
     font-family: 'Space Mono', monospace;
     font-weight: 400;
     line-height: 140%;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s;
+
     &:hover {
       color: $hover-color;
     }
@@ -119,5 +130,9 @@
   &__link {
     text-decoration: none;
     color: inherit;
+
+    &:hover {
+      color: $hover-color;
+    }
   }
 }

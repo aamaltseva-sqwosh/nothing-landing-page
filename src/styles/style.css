@@ -1,7 +1,7 @@
 /* stylelint-disable declaration-empty-line-before */
 /* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable at-rule-empty-line-before */
 /* stylelint-disable rule-empty-line-before */
+/* stylelint-disable at-rule-empty-line-before */
 .container {
   padding: 20px;
 }
@@ -24,7 +24,7 @@
 
 .header {
   min-width: 100%;
-  background-image: url("../images/header-bg-mobile.png");
+  background-image: url('../images/header-bg-mobile.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -136,7 +136,7 @@
   }
 }
 .icon--phone {
-  background-image: url("../images/icons/phone-icon.svg");
+  background-image: url('../images/icons/phone-icon.svg');
   position: relative;
 }
 .icon--phone .tooltip {
@@ -160,15 +160,15 @@
   opacity: 1;
 }
 .icon--menu {
-  background-image: url("../images/icons/burger-menu-icon.svg");
+  background-image: url('../images/icons/burger-menu-icon.svg');
   background-position: center;
   transition: all;
 }
 .icon--menu:hover {
-  background-image: url("../images/icons/burger-menu-hover-icon.svg");
+  background-image: url('../images/icons/burger-menu-hover-icon.svg');
 }
 .icon--close {
-  background-image: url("../images/icons/close-icon.svg");
+  background-image: url('../images/icons/close-icon.svg');
 }
 
 .menu {
@@ -183,22 +183,6 @@
 .menu:target {
   pointer-events: all;
   opacity: 1;
-}
-.menu__top {
-  padding: 20px;
-}
-@media (min-width: 576px) {
-  .menu__top {
-    padding-inline: 72px;
-  }
-}
-@media (min-width: 576px) and (min-width: 1020px) {
-  .menu__top {
-    max-width: 1260px;
-    width: 100%;
-    margin-inline: auto;
-    padding-inline: 120px;
-  }
 }
 .menu__top {
   margin-bottom: 56px;
@@ -237,7 +221,9 @@
   line-height: 140%;
   letter-spacing: 2px;
   margin-bottom: 16px;
-  transition: background-color 0.3s ease, color 0.3s;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s;
 }
 .menu__phone-number:hover {
   color: #595959;
@@ -252,6 +238,12 @@
   font-size: 16px;
   line-height: 140%;
   letter-spacing: 2px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s;
+}
+.menu__call-to-order:hover {
+  color: #595959;
 }
 
 *,
@@ -270,7 +262,7 @@ svg {
 
 .page {
   width: 100vw;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   color: #292929;
   line-height: 140%;
   scroll-behavior: smooth;
@@ -416,7 +408,7 @@ footer {
   }
 }
 .gallery__text {
-  font-family: "Space Mono", monospace;
+  font-family: 'Space Mono', monospace;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 12px;
@@ -439,6 +431,12 @@ footer {
   font-size: 22px;
   line-height: 100%;
   letter-spacing: 2px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s;
+}
+.nav__link:hover {
+  color: #595959;
 }
 .nav__list {
   margin: 0;
@@ -496,7 +494,9 @@ footer {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s;
 }
 @media (min-width: 576px) {
   .category__button {
@@ -589,7 +589,7 @@ footer {
   align-items: center;
 }
 .separator__content {
-  background-image: url("../images/main-bg-mobile.png");
+  background-image: url('../images/main-bg-mobile.png');
   height: 320px;
   width: 100%;
   background-size: cover;
@@ -651,7 +651,7 @@ footer {
   }
 }
 .about__text {
-  font-family: "Space Mono", monospace;
+  font-family: 'Space Mono', monospace;
   font-weight: 400;
   line-height: 140%;
   grid-column: 1/-1;
@@ -718,7 +718,7 @@ footer {
 }
 @media (min-width: 1020px) {
   .contact-form {
-    grid-column: 1/span 5;
+    grid-column: 1 / span 5;
   }
 }
 .contact__button {
@@ -735,7 +735,9 @@ footer {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s;
 }
 @media (min-width: 576px) {
   .contact__button {
@@ -788,8 +790,14 @@ footer {
   margin-bottom: 24px;
 }
 .information__phone-number {
-  color: #595959;
+  color: #292929;
   text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s;
+}
+.information__phone-number:hover {
+  color: #595959;
 }
 .information__title {
   margin: 0;
@@ -801,9 +809,12 @@ footer {
 }
 .information__text {
   margin: 0;
-  font-family: "Space Mono", monospace;
+  font-family: 'Space Mono', monospace;
   font-weight: 400;
   line-height: 140%;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s;
 }
 .information__text:hover {
   color: #595959;
@@ -811,6 +822,9 @@ footer {
 .information__link {
   text-decoration: none;
   color: inherit;
+}
+.information__link:hover {
+  color: #595959;
 }
 
 /*# sourceMappingURL=style.css.map */

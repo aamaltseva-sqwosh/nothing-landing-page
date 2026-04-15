@@ -13,8 +13,6 @@
   }
 
   &__top {
-    @include content-padding-inline;
-
     margin-bottom: 56px;
     position: sticky;
     top: 0;
@@ -61,5 +59,12 @@
     font-size: $main-text-size;
     line-height: 140%;
     letter-spacing: 2px;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s;
+
+    &:hover {
+      color: $hover-color;
+    }
   }
 }
