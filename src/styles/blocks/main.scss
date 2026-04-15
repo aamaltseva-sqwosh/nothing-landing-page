@@ -1,12 +1,13 @@
 .main {
   width: 100%;
-
+  max-width: 1260px;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
 
   &__content {
     display: grid;
+    justify-items: center;
     row-gap: 96px;
     padding-block: 96px;
 
@@ -18,6 +19,11 @@
 }
 
 .separator {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   display: flex;
   width: 100vw;
   justify-content: center;
@@ -29,13 +35,16 @@
     background-size: cover;
     background-position: center;
     margin-top: 96px;
+    margin-bottom: 48px;
 
     @include on-tablet {
       height: 400px;
+      margin-bottom: 56px;
     }
 
     @include on-desktop {
       height: 460px;
+      margin-bottom: 56px;
     }
   }
 }

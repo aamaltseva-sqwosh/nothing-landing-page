@@ -11,6 +11,8 @@
   &__icon {
     display: flex;
     gap: 24px;
+    position: relative;
+    margin-left: auto;
   }
 
   &__logo {

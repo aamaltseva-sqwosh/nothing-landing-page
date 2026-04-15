@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Nothing</title>
-    <link rel="icon" href="./src/images/logo.png">
+    <link rel="icon" href="/src/images/icons/logo.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect"
     href="https://fonts.gstatic.com" crossorigin="anonymous">
@@ -21,6 +21,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+      crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="src/styles/style.css"
@@ -35,21 +39,25 @@
   <body class="page__body" id="page-top">
     <!-- #region header -->
     <header class="header">
-      <div class="container">
-        <div class="header__content">
-          <div class="top-bar">
-            <a href="#page-top" class="top-bar__logo">
-              <img src="./src/images/icons/logo.svg" alt="nothing logo">
-            </a>
-            <div class="top-bar__icon">
-              <a href="tel:+1 234 5555-55-55" class="icon icon--phone"></a>
-              <a href="#menu" class="icon icon--menu"></a>
+      <div class="header__block">
+        <div class="container">
+          <div class="header__content">
+            <div class="top-bar">
+              <a href="#page-top" class="top-bar__logo">
+                <img src="./src/images/icons/logo.svg" alt="nothing logo">
+              </a>
+              <div class="top-bar__icon">
+                <a href="tel:+1 234 5555-55-55" class="icon icon--phone">
+                  <span class="tooltip">+1 234 5555-55-55</span>
+                </a>
+                <a href="#menu" class="icon icon--menu"></a>
+              </div>
             </div>
-          </div>
-          <div class="header__bottom">
-            <h1 class="header__title">Bring joy back
-              <br> to the everyday
-            </h1>
+            <div class="header__bottom">
+              <h1 class="header__title">Bring joy back
+                <br> to the everyday
+              </h1>
+            </div>
           </div>
         </div>
       </div>
@@ -286,31 +294,40 @@
                 ></textarea>
               <button class="contact__button sub-headline-2">Send</button>
             </form>
+
             <div class="information__content">
-              <h3 class="information__title">
-                Phone
-              </h3>
-              <p class="information__text">
-                <a href="tel:+1 234 5555-55-55" class="menu__phone-number">+1 234 5555-55-55</a>
-              </p>
-              <h3 class="information__title">
-                E-mail
-              </h3>
-              <p class="information__text">
-                hello@nothing.com
-              </p>
-              <h3 class="information__title">
-                Adress
-              </h3>
-              <p class="information__text">
-                <a href ="https://www.google.com/maps?q=400+first+ave+suite+700+Minneapolis+MN+55401"
-                  class="information__link"
-                  target="_blank"
-                  rel="noopener noreferrer">400 first ave.
-                  <br>suite 700
-                  <br>Minneapolis, MN 55401
-                </a>
-              </p>
+              <div class="information__block">
+                <h3 class="information__title">
+                  Phone
+                </h3>
+                <p class="information__text">
+                  <a href="tel:+1 234 5555-55-55" class="information__phone-number">+1 234 5555-55-55</a>
+                </p>
+              </div>
+
+              <div class="information__block">
+                <h3 class="information__title">
+                  E-mail
+                </h3>
+                <p class="information__text">
+                  hello@nothing.com
+                </p>
+              </div>
+
+              <div class="information__block">
+                <h3 class="information__title">
+                  Adress
+                </h3>
+                <p class="information__text">
+                  <a href ="https://www.google.com/maps?q=400+first+ave+suite+700+Minneapolis+MN+55401"
+                    class="information__link"
+                    target="_blank"
+                    rel="noopener noreferrer">400 first ave.
+                    <br>suite 700
+                    <br>Minneapolis, MN 55401
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
