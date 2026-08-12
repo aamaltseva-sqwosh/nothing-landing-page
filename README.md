@@ -1,24 +1,76 @@
 # Landing Page
 
-> ❗❗ You will complete this task in the **Landing** topic.
-> Now just choose a design and do the parts from the videos.
-> Note: in the first task of this topic you will find 4 examples of landing pages. Choose **only one** of them and create your page.
+A responsive landing page built with **HTML, SCSS and JavaScript** based on a Figma design.
 
-Choose a design for your landing page:
+The project focuses on responsive layout, semantic HTML, reusable SCSS structure, and accurate implementation of the provided UI design.
 
-- [MET landing](https://www.figma.com/file/lSR1m42L9YwzQwzzxKwHpw/THE-MET)
-- [MYBIKE landing](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
-- [B&O](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6817-212&t=ZTV6Gl8NzaWkJ4FK-0)
-- [Nothing](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6802-139&t=L7eKz5YKLN0m5WxR-0)
+## 🔗 Live Demo
 
-Follow the instructions in this and next lessons to implement the page block by block:
+[View Live Demo](https://aamaltseva-sqwosh.github.io/layout_landing-page/)
 
-- Here is [the design from the video](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6703-88&t=L7eKz5YKLN0m5WxR-0) (❗❗ DO NOT implement this design ❗❗ choose one of the options above ❗❗ ☝️)
-- Start writing styles in the `main.scss` file. It is be explained in the `Sass` lesson.
-- **DON'T** try to do it `Pixel Perfect` - implement it the most `simple` way so it looks similar.
-- When done check yourself using the [CHECKLIST](./checklist.md) when finished.
-- Deploy and create a Pull Request with a [DEMO LINK](https://<your_account>.github.io/layout_landing-page/).
+## 🛠 Technologies
 
-# Tips & Hints
-- Check `background-image: url()` to be relative to the `main.scss`. So should start with `../images`.
-- If some points from the checklist are not relevant to your design, just skip it.
+* HTML5
+* SCSS
+* JavaScript
+* BEM methodology
+* Responsive Design
+* Git & GitHub
+
+## ✨ Features
+
+* Responsive layout for mobile, tablet, and desktop
+* Semantic HTML structure
+* Adaptive navigation
+* Reusable SCSS styles
+* Smooth hover and transition effects
+* Layout based on a Figma design
+* Optimized structure for different screen sizes
+
+## 📱 Responsive Design
+
+The page is adapted for:
+
+* Mobile devices
+* Tablets
+* Desktop screens
+
+The layout changes depending on the available screen width while preserving the original visual structure of the design.
+
+## 🎨 Design
+
+The project was implemented based on a provided Figma design.
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/aamaltseva-sqwosh/layout_landing-page.git
+```
+
+2. Go to the project directory:
+
+```bash
+cd layout_landing-page
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the project locally:
+
+```bash
+npm start
+```
+
+## 👩‍💻 Author
+
+**Anna Maltseva**
+
+Front-End Developer focused on responsive interfaces, JavaScript, React and TypeScript.
+
+[GitHub](https://github.com/aamaltseva-sqwosh)
