@@ -6,7 +6,7 @@ The project focuses on responsive layout, semantic HTML, reusable SCSS structure
 
 ## 🔗 Live Demo
 
-[View Live Demo](https://aamaltseva-sqwosh.github.io/layout_landing-page/)
+[View Live Demo](https://aamaltseva-sqwosh.github.io/nothing-landing-page/)
 
 ## 🛠 Technologies
 
@@ -46,13 +46,13 @@ The project was implemented based on a provided Figma design.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/aamaltseva-sqwosh/layout_landing-page.git
+git clone https://github.com/aamaltseva-sqwosh/nothing-landing-page.git
 ```
 
 2. Go to the project directory:
 
 ```bash
-cd layout_landing-page
+cd nothing-landing-page
 ```
 
 3. Install dependencies:
